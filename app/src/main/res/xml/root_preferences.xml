@@ -1,0 +1,50 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/basico">
+
+        <SwitchPreferenceCompat
+            app:key="@string/sons"
+            app:title="sons" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/avancado" >
+
+        <ListPreference
+            app:defaultValue="tentativas"
+            app:entries="@array/tentativas_entries"
+            app:entryValues="@array/tentativas_values"
+            app:key="tentativas"
+            app:title="@string/tentativas_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="20 segundos"
+            app:entries="@array/tempotentativas_entries"
+            app:entryValues="@array/tempotentativas_values"
+            app:key="tempotentativas"
+            app:title="Tempo entre tentativas de comunicação"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="30 segundos"
+            app:entries="@array/intervalo_entries"
+            app:entryValues="@array/intervalo_values"
+            app:key="intervalo"
+            app:title="Intervalos do localizador"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="5 segundos"
+            app:entries="@array/locatefast_entries"
+            app:entryValues="@array/locatefast_values"
+            app:key="locatefast"
+            app:title="Intervalos do locatefast"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/avancado" >
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <EditText
+        android:id="@+id/editServidor1"
+        android:layout_width="214dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="32dp"
+        android:elevation="1dp"
+        android:ems="10"
+        android:hint="@string/ipserver"
+        android:inputType="textPersonName"
+        android:maxLength="50"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary_dark"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintHorizontal_bias="0.092"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <EditText
+        android:id="@+id/editServidor2"
+        android:layout_width="214dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="32dp"
+        android:elevation="1dp"
+        android:ems="10"
+        android:hint="@string/ipserver"
+        android:inputType="textPersonName"
+        android:maxLength="50"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary_dark"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintHorizontal_bias="0.376"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editConta"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="32dp"
+        android:elevation="1dp"
+        android:ems="10"
+        android:hint="@string/_1234"
+        android:inputType="textPersonName"
+        android:maxLength="4"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary_dark"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="93dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="181dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="265dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="384dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="455dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="39dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/chave"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/editChave"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/editChave"
+        android:layout_width="255dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="32dp"
+        android:elevation="1dp"
+        android:ems="10"
+        android:hint="@string/_000000000000000"
+        android:inputType="textPersonName"
+        android:maxLength="15"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary_dark"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintHorizontal_bias="0.228"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.222" />
+
+    <TextView
+        android:id="@+id/lbservidor1"
+        android:layout_width="64dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/servidor_1"
+        app:layout_constraintBottom_toTopOf="@+id/editServidor1"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:layout_constraintVertical_bias="0.833" />
+
+    <TextView
+        android:id="@+id/lbservidor2"
+        android:layout_width="64dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="163dp"
+        android:text="@string/servidor_2"
+        app:layout_constraintBottom_toTopOf="@+id/editServidor2"
+        app:layout_constraintEnd_toStartOf="@+id/lbporta2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.555" />
+
+    <EditText
+        android:id="@+id/editPorta1"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:elevation="1dp"
+        android:ems="10"
+        android:hint="@string/_8080"
+        android:inputType="textPersonName"
+        android:maxLength="4"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary_dark"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/editServidor1"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:layout_constraintVertical_bias="0.062" />
+
+    <TextView
+        android:id="@+id/lbporta1"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/porta_1"
+        app:layout_constraintBottom_toTopOf="@+id/editPorta1"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toEndOf="@+id/lbservidor1"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:layout_constraintVertical_bias="0.833" />
+
+    <EditText
+        android:id="@+id/editPorta2"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:elevation="1dp"
+        android:ems="10"
+        android:hint="@string/_8080"
+        android:inputType="textPersonName"
+        android:maxLength="4"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary_dark"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/editServidor2"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.727" />
+
+    <TextView
+        android:id="@+id/lbporta2"
+        android:layout_width="47dp"
+        android:layout_height="19dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/porta_2"
+        app:layout_constraintBottom_toTopOf="@+id/editPorta2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:layout_constraintVertical_bias="0.692" />
+
+    <EditText
+        android:id="@+id/editParticao"
+        android:layout_width="55dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:elevation="1dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:maxLength="2"
+        android:nextFocusDown="@id/btnOk"
+        android:text="@string/_00"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary_dark"
+        app:layout_constraintBottom_toTopOf="@+id/guideline4"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintHorizontal_bias="0.348"
+        app:layout_constraintStart_toEndOf="@+id/editConta"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <TextView
+        android:id="@+id/lbConta"
+        android:layout_width="138dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/conta_monitoramento"
+        app:layout_constraintBottom_toTopOf="@+id/editConta"
+        app:layout_constraintEnd_toStartOf="@+id/lbParticao"
+        app:layout_constraintHorizontal_bias="0.745"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/lbParticao"
+        android:layout_width="54dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/parti_o"
+        app:layout_constraintBottom_toTopOf="@+id/editParticao"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="1dp"
+        android:text="@string/ok"
+        android:textColor="@color/design_default_color_primary_dark"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toStartOf="@+id/guideline7"
+        app:layout_constraintStart_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toTopOf="@+id/guideline4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="37dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="327dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

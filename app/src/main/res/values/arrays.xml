@@ -1,0 +1,95 @@
+<resources>
+
+    <!-- Tentativas de Comunicação -->
+    <string-array name="tentativas_entries">
+        <item>1  tentativa</item>
+        <item>2  tentativas</item>
+        <item>4  tentativas</item>
+        <item>8  tentativas</item>
+        <item>16  tentativas</item>
+    </string-array>
+
+    <string-array name="tentativas_values">
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+    </string-array>
+
+    <!-- Tempo entre tentativas de comunicação -->
+    <string-array name="tempotentativas_entries">
+        <item>5 segundos</item>
+        <item>10 segundos</item>
+        <item>20 segundos</item>
+        <item>30 segundos</item>
+        <item>60 minuto</item>
+        <item>120 segundos</item>
+        <item>180 segundos</item>
+        <item>240 segundos</item>
+        <item>300 segundos</item>
+    </string-array>
+
+    <string-array name="tempotentativas_values">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+    </string-array>
+
+    <!-- Intervalo localizador -->
+
+    <string-array name="intervalo_entries">
+        <item>5 segundos</item>
+        <item>10 segundos</item>
+        <item>20 segundos</item>
+        <item>30 segundos</item>
+        <item>60 minuto</item>
+        <item>120 segundos</item>
+        <item>180 segundos</item>
+        <item>240 segundos</item>
+        <item>300 segundos</item>
+    </string-array>
+
+    <string-array name="intervalo_values">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+    </string-array>
+
+    <!-- Intervalos locatefast -->
+    <string-array name="locatefast_entries">
+        <item>5 segundos</item>
+        <item>10 segundos</item>
+        <item>20 segundos</item>
+        <item>30 segundos</item>
+        <item>60 minuto</item>
+        <item>120 segundos</item>
+        <item>180 segundos</item>
+        <item>240 segundos</item>
+        <item>300 segundos</item>
+    </string-array>
+
+    <string-array name="locatefast_values">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+    </string-array>
+</resources>

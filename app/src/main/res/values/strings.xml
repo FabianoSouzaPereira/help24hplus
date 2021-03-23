@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Help24h plus</string>
+    <string name="action_settings">Configuração</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="action_connection">Conexão</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="basico">Básico</string>
+    <string name="sons">sons</string>
+    <string name="avancao">Avançado</string>
+    <string name="avancado">Avancado</string>
+    <string name="tentativas">Tentativas</string>
+    <string name="tentativas_title">Tentativas de Comunicação</string>
+    <string name="enviar">Enviar</string>
+    <string name="emespera">Em Espera</string>
+    <string name="sem_contato">Sem contato com o servidor</string>
+    <string name="GPS">Não esqueça de ligar o GPS. Para uma localização precisa.</string>
+    <string name="icone_erro">Icone alerta erro</string>
+    <string name="icone_status">Icone de status</string>
+    <string name="title_activity_conection">ConectionActivity</string>
+    <string name="servidor_1">Servidor 1</string>
+    <string name="servidor_2">Servidor 2</string>
+    <string name="porta_1">Porta 1</string>
+    <string name="porta_2">Porta 2</string>
+    <string name="_00">00</string>
+    <string name="conta_monitoramento">Conta Monitoramento</string>
+    <string name="parti_o">Partição</string>
+    <string name="ok">OK</string>
+    <string name="chave">Chave</string>
+    <string name="ipserver">192.168.0.1</string>
+    <string name="_1234">1234</string>
+    <string name="_00_00_00_00_00_00">00:00:00:00:00:00</string>
+    <string name="_8080">8080</string>
+    <string name="_000000000000000">000000000000000</string>
+    <string name="_datahota">dd-MM-yyyy hh:mm:ss</string>
+    <string name="channel_name">Pânico</string>
+    <string name="channel_description">Mensagem de Panico</string>
+    <string name="title_activity_notification">Notification</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>
